@@ -9,7 +9,7 @@ CrashLogUtil.init(getBaseContext(), getApplicationContext().getExternalFilesDir(
 通过File logDir = new File(CrashLogUtil.getInstance().getCrashLogDirPath());可以获取crash日志保存目录。
  
 
-![Crash日志图片] (https://github.com/samlss/CrashLog/blob/master/screenshot/device-2018-03-28-175834.png)
+![Crash日志图片] (CrashLog/screenshot/device-2018-03-28-175834.png)
 
 total_crash_time:2
 
