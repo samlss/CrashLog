@@ -19,6 +19,21 @@
  
 ![Crash日志图片](https://github.com/samlss/CrashLog/blob/master/screenshot/device-2018-03-28-175834.png)
 
+## 参数说明
+total_crash_time:2          `总的crash次数`
+ 
+current_time: 1          `当前次数`<br>
+time: 2018-03-29 20:38:46          `发生时间`<br>
+device: itel-itel P41          `发生设备`<br>
+android: 7.0          `发生版本`<br>
+system: P41-U258-7.0-IN-V001-20170306          `发生系统`<br>
+battery: 99 %          `电量`<br>
+rooted: no          `是否root`<br>
+ram: 28.0% [884.00 MB]          `ram`<br>
+disk: 62.0% [4.00 GB]          `disk`<br>
+ver: 1          `app版本`<br>
+network: WIFI          `network环境`<br>
+
 ## 下面为详细的Crash记录信息：
 
       total_crash_time:2
