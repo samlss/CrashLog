@@ -1,12 +1,21 @@
 # CrashLog
+| Author        | Samlss           |
+| ------------- |:-------------:|
+| Email      | 729717222@qq.com |
+
+<br>
+
 安卓Crash日志收集器
 当应用发生Crash的时候，会读取系统信息，并与crash信息一起存到本地。
 
 在Application的onCreate()中进行初始化：
-CrashLogUtil.init(getBaseContext(), getApplicationContext().getExternalFilesDir("crash_log").getPath());
+```Java
+{
+   CrashLogUtil.init(getBaseContext(), getApplicationContext().getExternalFilesDir("crash_log").getPath());
+}
+```
 
-
-通过File logDir = new File(CrashLogUtil.getInstance().getCrashLogDirPath());可以获取crash日志保存目录。
+`通过File logDir = new File(CrashLogUtil.getInstance().getCrashLogDirPath());可以获取crash日志保存目录。`
  
 ![Crash日志图片](https://github.com/samlss/CrashLog/blob/master/screenshot/device-2018-03-28-175834.png)
 
@@ -61,3 +70,7 @@ java.lang.NullPointerException: Test null pointer exception.
         at java.lang.reflect.Method.invoke(Native Method)
         at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:865)
         at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:755)
+        
+        
+<br><br>
+[我的邮箱729717222@qq.com:cupid:](https://mail.qq.com/cgi-bin/loginpage?autologin=n&errtype=1&clientuin=729717222&param=&sp=&tfcont=22%20serialization%3A%3Aarchive%205%200%200%204%200%200%200%208%20authtype%201%204%209%20clientuin%209%20729717222%206%20domain%206%20qq.com%202%20vm%203%20wsk&r=3d7101e9d6b9c6d02d5ec94b0a1f427e)
